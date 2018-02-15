@@ -333,6 +333,15 @@ Main Components
   background: #8E00B5;
 }
 
+.cd-schedule .single-event[data-event="event-5"],
+.cd-schedule [data-event="event-5"] .header-bg {
+  background: #999999;
+}
+
+.cd-schedule .single-event[data-event="event-5"]:hover {
+  background: #898989;
+}
+
 
 .cd-schedule .event-modal {
   position: fixed;
