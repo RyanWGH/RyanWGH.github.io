@@ -308,11 +308,11 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-2"],
 .cd-schedule [data-event="event-2"] .header-bg {
-  background: #CA1515;
+  background: #8100A4;
 }
 
 .cd-schedule .single-event[data-event="event-2"]:hover {
-  background: #FF3D3D;
+  background: #8E00B5;
 }
 
 .cd-schedule .single-event[data-event="event-3"],
@@ -326,11 +326,12 @@ Main Components
 
 .cd-schedule .single-event[data-event="event-4"],
 .cd-schedule [data-event="event-4"] .header-bg {
-  background: #8100A4;
+  background: #CA1515;
 }
 
 .cd-schedule .single-event[data-event="event-4"]:hover {
-  background: #8E00B5;
+  background: #FF3D3D;
+
 }
 
 .cd-schedule .single-event[data-event="event-5"],
