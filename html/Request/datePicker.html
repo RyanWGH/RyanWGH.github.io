@@ -25,16 +25,12 @@
 </nav>
 <p>
 </p>
-<div class="container" align=center>
-<form action="/action_page.php">
-  To:
-  <input type="date" name="ToDate">
-  From:
-  <input type="date" name="FromDate">
-  <button type="button" class="btn btn-primary">Submit</button>
- 
+<form class="form-inline" align=center action="/action_page.php" method="get" id="DonateHours">
+	<div class="form-group" align=center>
+  To: <input type="date" name="ToDate" class="form-control" form="DonateHours" style="width: 200px;" display=inline> 
+  From: <input type="date" name="FromDate" class="form-control" form="DonateHours" style="width: 200px;"> 
+  <button type="submit" form="DonateHours" value="Submit" class="btn btn-primary">Submit</button>
 </form>
-</div>
 
 <p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11 and earlier versions.</p>
 
