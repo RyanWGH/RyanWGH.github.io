@@ -27,30 +27,27 @@
   </div>
 </nav>
 
-<div class="container" align=center>
-	<br>
-	<br>
+<form class="container" action="/Testing" method="get" id="Donateform" align="center">
   <p>Which family would you like to donate hours to?</p>
-  
-  <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="width: 100px;">Family
-    <span class="caret"></span></button>
-    <select class="dropdown-menu" id="DonateFamily">
-		<option>1<option>
-		<option>2<option>
-		<option>3<option>
-		<option>4<option>
-		<option>5<option>
+  <form>
+    <div class="form-group">  
+    <label for="Family">Family (select one):</label>
+	<select class="form-control" id="Family" name="Family" 	form="Donateform" style="width: 150px;">		
+		<option>Hancock<option>
+		<option>Whitely<option>
+		<option>Smith<option>
+		<option>Leblanc<option>
+		<option>Ferris<option>
     </select>
   </div>
   <br>
   <p>How many hours would you like to donate?</p>
   <p>Example: 1 for 1 hour, 0.5 for 30 minutes, etc</p>
-  <div class="form-group">
-		  <input type="text" class="form-control" style="width: 250px;">
+  <div class="form-group" align=center>
+		  <input type="text" class="form-control" id="DonateTime" name="Time" form="Donateform" style="width: 250px;">
 	  </div>
-  
-</div>
-
+      <div align=center>
+    <button type="submit" form="Donateform" value="Submit" class="btn btn-primary">Submit</button>
+  </div>
 </body>
 </html>
