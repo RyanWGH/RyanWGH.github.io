@@ -29,23 +29,28 @@
 	</u1>
   </div>
 </nav>
-  
-<div class="container" align="center">
-	<img class="mb-4" src="CarawayLogo.png" alt="" align="middle" width="156" height="156">
-  <h3>Welcome to Caraway</h3>
-  <p>This is a very basic page for right now, Update this to be the main page</p>
-  
-  <h3>Weekly Statistics</h3>
-  <p>Hours Completed: </p>
-  <p>Hours Required: </p>
-  <p>Overflow Hours: </p>
-
-  <h3>Monthly Statistics</h3>
-  <p>Hours Completed: </p>
-  <p>Hours Required: </p>
-  <p>Overflow Hours: </p>
-
+<div align="center">
+<h1>Caraway at Argyll Centre</h3>
+Edmonton Terrace Heights Campus<p></p>
+6859 – 100 Avenue N.W.<p></p>
+Edmonton, Alberta<p></p>
+T6A 0G3<p></p>
+<h4>Visit us on <a href="https://www.facebook.com/carawayschool">Facebook</a></h4>
+<p></p>
+<h4>For more information please email the Caraway <p></p> registration team at <a href="mailto:carawayedmonton@gmail.com" target="_top">carawayedmonton@gmail.com</a></h4>
+<p></p>
+<div id="map" style="width:60%;height:400px;"></div>
 </div>
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+  };
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
 </body>
 </html>
