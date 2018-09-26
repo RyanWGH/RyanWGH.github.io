@@ -31,71 +31,40 @@
 	</u1>
   </div>
 </nav>
-  
 
-<link rel="stylesheet" href="/css/tablestyle.css">
-
-<div id="page">
-<div align="center"><font size=14><b>Participants</b></font></div>
-
-<ul class="list-group">
-	<table id="NewFacilitatorList">
-		<tr>
-			<th>Picture</th>
-			<th>First Name</th>
-			<th>Last Name</th>
-			<th>Phone Number</th>
-			<th>Email</th>
-			<th>Mail (Yes or No)</th>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
-		<tr>
-			<td>N/A</td>
-			<td>Ryan</td>
-			<td>Hancock</td>
-			<td>587 646 5931</td>
-			<td>ryanwgh@hotmail.com</td>
-			<td>Yes</td>
-		</tr>
+<main role="main" class="container">
+<form id="CreateFacilitatorForm">
+	<div class="row">
+		<div class="col-md-3 mb-3">
+  		  <label for="FirstName">First Name: </label>
+		  <input type="text" class="form-control" id="FirstName" name="FirstName" form="CreateFacilitatorForm" style="width: 275px;">
+	  </div>
+  		<div class="col-md-3 mb-3">
+		  <label for="LastName">Last Name: </label>
+		  <input type="text" class="form-control" id="LastName" name="LastName" form="CreateFacilitatorForm" style="width: 275px;">
+	  </div>
+  </div>
+  		<p></p>
+	   	<div class="row">
+		<div class="col-md-3 mb-3">
+	        <label for="Family">Family:</label>
+	        <select class="form-control" id="Family" name="Family" form="CreateFacilitatorForm" style="width: 275px;">
+	  	  </select>
+	  </div>
+		  <div class="col-md-3 mb-3">
+	  		<label for="Phone">Phone Number: </label>
+	  		<input type="text" class="form-control" id="Phone" name="Phone" form="CreateFacilitatorForm" style="width: 275px;">
+		</div>
+	      </div>
+		  <p></p>
+				  <label for="Email">Email: </label>
+				  <input type="text" class="form-control" id="Email" name="Email" form="CreateFacilitatorForm" style="width: 565px;">
+		  		<p></p>
+				  <label for="Password">Password: </label>
+				  <input type="password" class="form-control" id="Password" name="Password" form="CreateFacilitatorForm" style="width: 565px;">
+		  <p></p>
+	      <button id="submit" class="btn btn-primary btn-lg" style="width: 565px; height: 50px;">Submit</button>
+	  	  </div>
 </ul>
 </body>
 </html>
